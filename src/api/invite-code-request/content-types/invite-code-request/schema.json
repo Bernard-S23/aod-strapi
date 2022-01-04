@@ -1,0 +1,22 @@
+{
+  "kind": "collectionType",
+  "collectionName": "invite_code_requests",
+  "info": {
+    "singularName": "invite-code-request",
+    "pluralName": "invite-code-requests",
+    "displayName": "InviteCodeRequest",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "InviteCode": {
+      "type": "string"
+    },
+    "Email": {
+      "type": "email"
+    }
+  }
+}
