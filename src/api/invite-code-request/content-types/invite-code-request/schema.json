@@ -12,11 +12,10 @@
   },
   "pluginOptions": {},
   "attributes": {
-    "InviteCode": {
-      "type": "string"
-    },
     "Email": {
-      "type": "email"
+      "type": "email",
+      "required": true,
+      "unique": true
     }
   }
 }
